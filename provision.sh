@@ -1,3 +1,3 @@
-apt-get update -y
-apt-get autoremove -y
-apt-get install python -y
+apt-get --yes --force-yes update
+apt-get --yes --force-yes autoremove
+apt-get --yes --force-yes install python
