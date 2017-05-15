@@ -14,7 +14,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Use a shell provisioner to Vagrant here which will use
   # rake inside the VM to run vagrant:provision
   # Put a custom vagrant.pp in this directory if you want to run your own manifest.
-  config.vm.provision :shell, :path => "https://raw.githubusercontent.com/j450nb/vagrant-python/provision.sh"
+  config.vm.provision :shell, :path => "https://raw.githubusercontent.com/j450nb/vagrant-python/master/provision.sh"
 
  # Use VBoxManage to customize the VM. For example to change memory:
   config.vm.provider "virtualbox" do |vb|
